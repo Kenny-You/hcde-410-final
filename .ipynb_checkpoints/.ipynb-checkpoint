@@ -1,0 +1,166 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "71b80344-7a70-4f05-b0b6-c0e09b4e5e88",
+   "metadata": {
+    "tags": []
+   },
+   "source": [
+    "## Motivation and problem statement: One or more paragraphs of text that answers the questions:\n",
+    "#### Why are you planning to do this analysis? \n",
+    "#### Why is it potentially interesting and useful, from a scientific, practical, and/or human-centered perspective? \n",
+    "#### What do you hope to learn? \n",
+    "#### Note that you only need to describe your overall research goal at this stage; specific hypotheses or research questions aren’t necessary in the project preliminary proposal."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8ef47b67-a460-4d91-9a6b-f3170ea40fda",
+   "metadata": {},
+   "source": [
+    "My motivation for this analysis is to understand what factor contributes the most for a player to be drafted into the NBA. I am interested in this analysis because I have a friend that may potentially go into the draft and I want to increase his chances by this research. It's also interesting from a human-centered perspective because it may shed light on possible discrimination for players that have the potential on paper, but do not get drafted because of superficial factors. The most prominent example I can give is Jeremy Lin who was not drafted when he was an NBA-caliber player coming out of Harvard on paper. Something that I hope to learn is what general managers and coaches value in a player, whether it's beyond the physical. I want talented players who deserve a fair shot at the league to shine like the rest, perhaps this research could motivate the league to look beyond how they assess future success. Much of the promises in new drafts don't end up to be the next Michael Jordan or Lebron James. There could be a more accurate way to determine future success in these players.\n",
+    "\n",
+    "#"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "de926bcf-0a50-4f99-b576-6b0a7fecace5",
+   "metadata": {},
+   "source": [
+    "### Data selected for analysis: What dataset do you plan to use, and why? \n",
+    "#### Summarize what is represented in the dataset\n",
+    "#### Link to the dataset (it must be publicly available)\n",
+    "#### Specify license and/or terms of use for the data\n",
+    "#### Explain why this dataset is a suitable one for addressing your research goal listed above\n",
+    "#### Highlight any possible ethical considerations to using this dataset"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f1216420-ff62-4570-adb7-822a496d530c",
+   "metadata": {},
+   "source": [
+    "I plan to use the dataset of all the NBA draft combine measurements, beginning in 2012. The link to the dataset is https://data.world/achou/nba-draft-combine-measurements. The dataset is free to use for the public, no specific licensing is provided. This dataset is suitable for the research goal that I am addressing because it includes which draft pick the players were if they were drafted. Both players that did and did not get drafted are included in the dataset and that will give us a good contrast to see what the determining factor is between the two. In terms of ethical considerations, the data is for public viewing and not meant to be hidden from anyone as to provide transparency.\n",
+    "\n",
+    "#"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7018f104-2290-4122-b20b-fadd332ba444",
+   "metadata": {},
+   "source": [
+    "### Unknowns and dependencies: Are there any factors outside of your control that might impact your ability to complete this project by the end of the quarter? The purpose of this section is to get you thinking, in a practical sense, about your ability to complete this project within the time allotted."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2a16d22b-7084-4201-8267-38918bbb8af6",
+   "metadata": {},
+   "source": [
+    "I cannot foresee any factors that may be an obstacle for completing this project within the allotted time, apart from contracting COVID. \n",
+    "\n",
+    "#"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7af53bfe-e36a-4a26-8b93-f1f52525a67a",
+   "metadata": {},
+   "source": [
+    "## Research Question\n",
+    "### What is the greatest contributing factoring in a player getting drafted into the NBA?\n",
+    "#"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "85cbef03-6530-451b-996f-59e2d81f375b",
+   "metadata": {},
+   "source": [
+    "## Hypothesis\n",
+    "### Players who score the most average points have the highest likelihood of getting drafted into the NBA.\n",
+    "\n",
+    "#"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "732db403-3d53-408f-907d-9e5fd75309c5",
+   "metadata": {},
+   "source": [
+    "# Background and/or Related Work\n",
+    "### What is already known about the phenomenon you are investigating? What previous research on this phenomenon (or related phenomena) has been performed, and what were the findings?\n",
+    "### How does previous research or background information inform your decision to perform this study, the way you designed the study, or your specific research questions you chose? Make sure to include references (endnotes and/or inline hyperlinks) to the sources of background information--whether they are websites, news articles, or peer-reviewed research."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c8d0a37b-851a-4adf-8e1e-327483117df2",
+   "metadata": {},
+   "source": [
+    "According to studies done around the NBA draft, an average player has a 1 in 3333 chance of making it to the NBA or a 0.03% chance. This is because basketball is constantly evolving and the next generation has more access to better training as well as coaching. Around 16,000 high schoolers will go on to play basketball at the collegiate level and only 110 will go on to play at least one game in the NBA. Getting into the NBA is no simply walk in the park. Considering that only 60 players are drafted into the NBA, two players for each team, determining the most important factor for success is crucial. One of the most obvious finding tends to be height and weight. The average height in the NBA is around 6ft 6in and a weight of around 220lbs. Now, depending on the position you play, this will drastically vary. However, no matter what position you play, you're going to have to play against these players, which is why it is logical to believe that physical stature is a good assessor. \n",
+    "https://dunkorthree.com/odds-of-making-it-to-nba/ \n",
+    "\n",
+    "After reading the article from the link above, I think the overall decision to perform this study motivates me more to look closer at physical attributes as well as player statistics. The research question I chose still seems to be valid and my hypothesis will still have to be put to the test, but in terms of how I'll analyze the data and design my study, it should remain relatively grounded. The data I'll be analyzing will be the csv file will every college player that gave a run at the NBA draft and I plan to organize the data by each category in relation to draft pick numbers.\n",
+    "\n",
+    "#"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6a16ebfd-264e-4ada-818a-6c1d54e682f0",
+   "metadata": {},
+   "source": [
+    "# Methodology: Describe how you plan to investigate this phenomenon.\n",
+    "### Describe the analytical methods you intend to use to answer your questions. (e.g. \"ordinary least squares\", \"student's t-test\", or \"recurrent neural network\")\n",
+    "### Describe the method you plan to use to present your findings. Data visualizations can be useful (bar charts, dotplots, heatmaps, time series graphs), but are not appropriate to all types of data or analysis. In some cases, presenting your model output and then describing specific coefficients will be enough. In other cases, presenting your results in a table might be most appropriate.\n",
+    "### Explain why the methods you chose to analyze and present your data are appropriate and useful.\n",
+    "#### You are expected to be thorough with these steps. Please describe to the best of your ability the entire series of gathering, analysis, and presentation methods you plan to use."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a512cbfd-0209-47e5-8818-b2a44b3f8e03",
+   "metadata": {},
+   "source": [
+    "The analytical method I'll use to answer my questions will most likely be a trend line of least squares regression method. What I plan to do is create a plot graph with the draft pick numbers as the y-axis and one main factor such as height as the axis and see the trend with a regression line. I will repeat this for every category that the csv file contains for every year of the draft data. Once I have the trend or regression lines, I will then compare them to each other and analyze which factor had the most impact in order, the steepest most likely meaning a stronger trend.\n",
+    "\n",
+    "In presenting my findings, I think I would show the trend of each year's data and perhaps even combine the graphs into one major graph color-coded differently to view the findings. Alternatively, I could do a spider-map where each factor for every year could be shown with a more clear visual display for the audience.\n",
+    "\n",
+    "If I were to conduct this research in to more detailed steps, I would need to download every year's draft data beginning from 2012 to 2016. There is a file that contains all five draft data into one csv file, but I think analyzing each year will show a greater breadth of patterns for draft factors. Next, I would process each file using either Python and python data structure libraries such as pandas or numpy to generate graphs for each or go more of a graphical user interface route of importing the csv files into Google Sheets/Tableau and generating graphs that way. Moving onto generating the graphs, I'm thinking that a plot graph will be the most useful because I want to look for a trend in the data if there is one. Once, I have the trendlines for each category, I wand to analyze them by their slope and rank their correlation to draft picks. It may make more sense to just generate a spider graph with all of the categories as its legs and see the correlation that way, and that is something that may be more useful for the audience to see in the final presentation.  "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cff2fe7c-b180-43b9-aafb-1281346ef40a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
